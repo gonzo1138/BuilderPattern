@@ -12,28 +12,28 @@ public class Person {
         return _name;
     }
 
-    public void set_name(String _name) {
-        this._name = _name;
+    public void set_name(String name) {
+        _name = name;
     }
 
     public String get_geburtstag() {
         return _geburtstag;
     }
 
-    public void set_geburtstag(String _geburtstag) {
-        this._geburtstag = _geburtstag;
+    public void set_geburtstag(String geburtstag) {
+        _geburtstag = geburtstag;
     }
 
     public String get_lieblingsfarbe() {
         return _lieblingsfarbe;
     }
 
-    public void set_lieblingsfarbe(String _lieblingsfarbe) {
-        this._lieblingsfarbe = _lieblingsfarbe;
+    public void set_lieblingsfarbe(String lieblingsfarbe) {
+        _lieblingsfarbe = lieblingsfarbe;
     }
 
     @Override
     public String toString() {
-        return this._name + "\t" + this._geburtstag + "\t" + this._lieblingsfarbe;
+        return _name + "\t" + _geburtstag + "\t" + _lieblingsfarbe;
     }
 }
